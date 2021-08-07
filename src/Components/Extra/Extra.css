@@ -1,0 +1,8 @@
+#credits {
+    display: flex;
+    flex-direction: column;
+}
+
+#credits a {
+    margin: 8px;
+}

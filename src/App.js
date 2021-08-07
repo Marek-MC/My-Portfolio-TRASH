@@ -1,5 +1,7 @@
+// CSS import
 import './App.css'
 
+// React imports
 import Origin from "./Origin"
 
 function App() {

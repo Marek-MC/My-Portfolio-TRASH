@@ -1,0 +1,12 @@
+#footer {
+    background-color: rgb(45, 45, 45);
+
+    border-top: 1px solid rgb(64, 64, 64);
+    
+}
+
+#footer svg {
+    color: azure;
+
+    margin: 10px;
+}

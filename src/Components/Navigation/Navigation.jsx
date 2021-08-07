@@ -23,7 +23,7 @@ class Navigation extends Component {
           </li>
 
           <li>
-            <Link className='navigationLink' to='/extras'>Extras</Link>
+            <Link className='navigationLink' to='/extras'>Extra</Link>
           </li>
 
         </ul>

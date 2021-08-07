@@ -41,11 +41,12 @@ class Origin extends Component {
                 <HashRouter>
 
                     <Navigation />
-
-                    <Switch>
-                        <Redirect exact from="/" to="/home" />
-                        <Router />
-                    </Switch>
+                    <div id="content">
+                        <Switch>
+                            <Redirect exact from="/" to="/home" />
+                            <Router />
+                        </Switch>
+                    </div>
 
                 </HashRouter>
 

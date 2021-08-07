@@ -1,11 +1,13 @@
+// CSS import
 import "./ProjectItem.css"
 
+// React imports
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class ProjectItem extends Component {
 
-    
+
 
 
 
@@ -15,19 +17,18 @@ class ProjectItem extends Component {
 
                 <div id='projectItem'>
 
-                    <h4 id='itemTitle'><span className='keyword'>{this.props.data.title}</span></h4>
+                    <a id="itemLink" target="_blank" href={this.props.data.path}>{this.props.data.title}</a>
 
                     <p id='itemDescription'>{this.props.data.description}</p>
 
                     <p id='itemStatus'>Status: {this.props.data.status}</p>
 
-                    <Link id='itemLink' to={this.props.data.path}>{this.props.data.title} Project Link</Link>
 
                 </div>
 
             </>
         )
-    };
-};
+    }
+}
 
 export default ProjectItem;

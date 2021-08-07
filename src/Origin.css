@@ -1,18 +1,28 @@
 html {
     text-align: center;
-
-    position: relative;
-
+    
     text-shadow: 2px 3px 2px black;
+    
+    
+    overflow: scroll;
 
+    /* background-color: transparent; */
 }
 
 html p {
-    color: white;
+    color: azure;
 }
+
+
 
 #origin {
     margin: 20px 0px 20px 0px;
+
+}
+
+#content {
+    max-width: 80%;
+    margin: auto;
 }
 
 #marek-carlisle {
@@ -24,5 +34,20 @@ html p {
 }
 
 #moon {
-    margin: 0px;
+    margin: 0;
+}
+
+#moon:hover {
+    color: orange;
+}
+
+hr {
+    width: 50%;
+
+    
+    border-color: rgb(101, 101, 101) black;
+}
+
+a {
+    color: #3d74e3;
 }
