@@ -1,0 +1,23 @@
+#navigation {
+    background-color: rgb(64, 64, 64);
+}
+
+#navigation ul {
+    padding: inherit;
+}
+
+#navigation li {
+    margin: 5px;
+    color: #3d74e3;
+    display: inline-block;
+
+}
+
+.navigationLink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navigationLink:hover {
+    color: orange;
+}

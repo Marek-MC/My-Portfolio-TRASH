@@ -1,0 +1,28 @@
+html {
+    text-align: center;
+
+    position: relative;
+
+    text-shadow: 2px 3px 2px black;
+
+}
+
+html p {
+    color: white;
+}
+
+#origin {
+    margin: 20px 0px 20px 0px;
+}
+
+#marek-carlisle {
+    color: inherit;
+}
+
+#title {
+    margin: 25px;
+}
+
+#moon {
+    margin: 0px;
+}
