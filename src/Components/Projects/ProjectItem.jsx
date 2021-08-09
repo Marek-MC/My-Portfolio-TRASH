@@ -18,7 +18,7 @@ class ProjectItem extends Component {
                 <div id='projectItem'>
 
                     <a id="itemLink" target="_blank" href={this.props.data.path}>{this.props.data.title}</a>
-
+                    
                     <p id='itemDescription'>{this.props.data.description}</p>
 
                     <p id='itemStatus'>Status: {this.props.data.status}</p>

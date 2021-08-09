@@ -36,9 +36,9 @@ class Home extends Component {
                 <hr />
 
                 <p>
-                    I want to travel! Fun fact: I've been to 2 states my entire life. North Dakota and Minnesota. I'm trying hard to change this, because
-                    there is a whole world that I have not seen. I've a list of places I want to go. One of which includes my dream island: Hawaii. Where the sun
-                    is hot, and the rain is frequent. I dream of owning a home here, and spending my time on the beaches of paradise.
+                    I want to travel! I'm trying hard to pull myself out of the customer service industry, and into tech, because I know that it 
+                    comes with lots of great benefits. Once I start making some more money, I'll immediately begin saving up to visit my dream home: Hawaii. And then i'll 
+                    venture outwards from there!
                 </p>
 
                 <hr />
